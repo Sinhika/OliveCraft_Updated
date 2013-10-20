@@ -1,0 +1,18 @@
+[{
+    "modid": "olivecraft",
+    "name": "OliveCraft",
+    "description": "This mod add olive trees, olives, and the delicious olive oil to minecraft",
+    "version": "1.6.4a",
+    "mcversion": "1.6.4",
+    "url": "",
+    "updateUrl": "",
+    "authors": ["Joserichi", "Sinhika"],
+    "credits": "Authored by Joserichi, updated to 1.6.4 by Sinhika",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [ "Forge" ],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": "true"
+  }]
