@@ -6,6 +6,7 @@
 	<target name="clean">
 		<delete file="${build.dir.minecraft}\mcp\src\minecraft\mcmod.info" />
 		<delete dir="${build.dir.minecraft}\mcp\src\minecraft\joserichi" />
+		<delete dir="${build.dir.minecraft}\mcp\src\minecraft\sinhika" />
 		<delete dir="${build.dir.minecraft}\mcp\reobf\minecraft" />
 	</target>
 
@@ -50,7 +51,7 @@
 
 		<!-- Build the jar -->
 		<mkdir dir="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}" />
-		<jar destfile="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}\olivecraft-universal-${build.release.mod.version}-${build_number.build_number}.jar">
+		<jar destfile="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}\olivecraft-${build.release.mod.version}-${build_number.build_number}.jar">
 			<fileset dir="${build.dir.minecraft}\mcp\src\minecraft\" includes="mcmod.info" />
 			<fileset dir="${build.dir.minecraft}\mcp\reobf\minecraft" />
 			<fileset dir="${build.dir.development}\mc_mod_src\OliveCraft_Updated\resources" excludes="**/xcf/**" />
@@ -70,7 +71,7 @@
 		
 		<!-- Build the jar -->
 		<mkdir dir="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}" />
-		<jar destfile="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}\olivecraft-universal-${build.release.mod.version}-${build_number.build_number}.jar">
+		<jar destfile="${build.dir.release}\${build.release.minecraft.version}\${build.release.mod.version}\olivecraft-${build.release.mod.version}-${build_number.build_number}.jar">
 		<fileset dir="${build.dir.minecraft}\mcp\src\minecraft\" includes="mcmod.info" />
 		<fileset dir="${build.dir.minecraft}\mcp\reobf\minecraft" />
 		<fileset dir="${build.dir.development}\mc_mod_src\OliveCraft_Updated\resources" excludes="**/xcf/**" />
